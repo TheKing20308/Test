@@ -9,12 +9,17 @@ namespace Game.Scripts.Api
 
     public class Request
     {
-        public const string name = "";
-        public const string email = "";
-        public const string password = "";
+        public string name;
+        public string email;
+        public string password;
     }
 
     public class Response
+    {
+        
+    }
+
+    public class Data
     {
         
     }
