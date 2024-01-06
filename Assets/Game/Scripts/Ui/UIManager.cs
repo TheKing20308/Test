@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour
 
     public enum Screen
     {
-        Login,
+        SignIn,
         Otp,
         Signup,
         Image,
@@ -50,7 +50,7 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        ChangeScreen(Screen.Signup);
+        ChangeScreen(Screen.SignIn);
     }
 
     private void OnApplicationPause(bool hasFocus)
